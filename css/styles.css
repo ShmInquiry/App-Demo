@@ -6,7 +6,7 @@
   overflow-x: auto;
   justify-content: center;
   object-fit: contain;
-  align-items: flex-start; /* Push images up by 10 pixels */
+  align-items: center; /* Push images up by 10 pixels */
 
 }
 
@@ -21,9 +21,6 @@
   display: block;
 }
 
-:target img {
-  display: none;
-}
 
 body, html {
   margin: 0;
@@ -40,5 +37,9 @@ body, html {
   flex-wrap: nowrap;
   overflow-x: auto;
   height: 100vh;
+}
+
+:target img {
+ display: none;
 }
 
