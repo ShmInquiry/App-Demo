@@ -1,0 +1,25 @@
+/* Body background color */
+body {
+  background-color: #13002A; /* Dark purple */
+  color: #EEEAE4; /* Light cream text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for images */
+#imageContainer {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+/* Image styling */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
