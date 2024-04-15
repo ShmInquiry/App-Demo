@@ -5,9 +5,6 @@ function showImage(index) {
   images.forEach((image, idx) => {
     if (idx === index) {
       image.style.display = 'block';
-      image.style.width = '100vw';
-      image.style.height = '100vh';
-      image.style.objectFit = 'contain';
     } else {
       image.style.display = 'none';
     }
@@ -19,12 +16,12 @@ function nextImage() {
   showImage(currentImageIndex);
 }
 
-images.forEach((image, index) => {
-  image.addEventListener('click', () => {
-    nextImage();
-  });
-});
-
 document.addEventListener('DOMContentLoaded', function() {
   showImage(currentImageIndex);
+
+  images.forEach((image, index) => {
+    image.addEventListener('click', () => {
+      nextImage();
+    });
+  });
 });
