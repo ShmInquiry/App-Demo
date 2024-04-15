@@ -1,0 +1,28 @@
+header {
+    display: flex;      
+    justify-content: flex-start;      
+    align-items: center;      
+    border: 1px solid black;
+    padding: 1em;
+}
+header img {
+    flex-shrink: 0;   
+}
+h1 {
+    flex-grow: 1;    
+    padding-left: .5em;
+    font-size: 2.5em;
+}
+
+.dictionary-container {
+    list-style-type: none;
+}
+.dictionary-item {
+    display: flex;     
+}
+.dictionary-image {
+    flex-shrink: 0;    
+}
+.dictionary-entry {
+    flex-grow: 1;    
+}
