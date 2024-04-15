@@ -5,12 +5,43 @@ body {
   background-color: #333; /* Dark grey background color */
 }
 
-.gallery {
-  display: flex;
-}
 
 .gallery img {
   width: 100vw;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
   object-fit: cover;
+}
+
+
+
+.gallery img:first-child {
+  display: block;
+}
+
+:target img {
+  display: none;
+}
+
+:target img:first-child {
+  display: block;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height: 100vh;
+}
+
+:target img {
+  opacity: 1;
 }
