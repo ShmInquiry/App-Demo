@@ -19,9 +19,7 @@ function nextImage() {
 document.addEventListener('DOMContentLoaded', function() {
   showImage(currentImageIndex);
 
-  images.forEach((image, index) => {
-    image.addEventListener('click', () => {
-      nextImage();
-    });
+  document.addEventListener('click', function() {
+    nextImage();
   });
 });
