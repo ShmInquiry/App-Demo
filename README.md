@@ -14,6 +14,8 @@
 ![Page 2](App_Demo_Wip/Page2.png)
 ![Page 3](App_Demo_Wip/Page3.png)
 ![Page 4](App_Demo_Wip/Page4.png)
+![Page 5](App_Demo_Wip/Page5.png)
+![Page 6](App_Demo_Wip/Page6.png)
 
 ## Contributions
 🎉 Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
